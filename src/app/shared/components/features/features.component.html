@@ -1,0 +1,17 @@
+<section class="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div class="feature-section text-center">
+                    <h1 class="features-heading">Tinyone-features</h1>
+                    <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+                </div>
+            </div>
+            <div class="row mt-90">
+                <div class="col-md-4 mb-4" *ngFor="let obj of featureArr">
+                    <app-feature-card [getObj]="obj"></app-feature-card>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

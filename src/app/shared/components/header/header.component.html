@@ -1,0 +1,43 @@
+<section class="heroImg">
+    <div class="container mb-90">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">
+                <img src="./../../../../assets/images/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">features <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">support</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">blog</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <h2 class="heading pt-75">Inspire your inspiration</h2>
+						<h3 class="subHeading">Simple to use for your app, products showcase and your inspiration</h3>
+						<p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+						<ul class="socialIcons">
+								<li *ngFor="let icon of socialIcons" [innerHTML]="icon"></li>
+						</ul>
+            </div>
+            <div class="col-md-5 offset-md-2">
+                <div class="Ipad">
+                    <img src="./../../../../assets/images/ipad.png" title="ipad" alt="ipad">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

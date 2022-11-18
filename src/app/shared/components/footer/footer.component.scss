@@ -1,0 +1,42 @@
+.footer{
+    background-color: #000;
+}
+.footerHeading{
+    font-size: 32px;
+    color: #fcdb00;
+}
+.footerPara{
+    color: #898989;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.searchFooter{
+    width: 84%!important;
+    border: none;
+}
+.btn{
+    color: #010101;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.footerIcons{
+    margin-bottom: 130px;
+}
+.footerIcons a{
+    font-size: 42px;
+    color: #fcdb00;
+    margin-left: 30px;
+}
+.list1, .list2, .list3, .list4{
+    list-style: none;
+}
+.anchor, .anchor:visited, .anchor:link{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+p{
+    margin-bottom: 0;
+}
